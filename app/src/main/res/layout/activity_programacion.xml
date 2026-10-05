@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programacion"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18:00 - Eladio Carrion" android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20:00 - El Alfa" android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="22:00 - Arcangel" android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnInfoRecinto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion del recinto"/>
+    <Button
+        android:id="@+id/btnVolverProgramacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"/>
+
+</LinearLayout>

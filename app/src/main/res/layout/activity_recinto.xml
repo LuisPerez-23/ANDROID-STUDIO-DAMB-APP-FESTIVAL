@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recinto Valencia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Calle inventada 123, Valencia"
+    android:textSize="18sp"
+    android:textStyle="italic"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NORMAS DE ACCESO:" android:textSize="20sp" android:textStyle="bold"
+        />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No armas" android:textSize="18sp" android:textStyle="bold"
+        />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No fumar" android:textSize="18sp" android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnVolverRecinto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"/>
+
+</LinearLayout>
+
+
